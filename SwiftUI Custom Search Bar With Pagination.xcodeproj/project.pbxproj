@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		109E560C253AFC4E00C957C1 /* SwiftUI_Custom_Search_Bar_With_PaginationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109E560B253AFC4E00C957C1 /* SwiftUI_Custom_Search_Bar_With_PaginationApp.swift */; };
+		109E560E253AFC4E00C957C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109E560D253AFC4E00C957C1 /* ContentView.swift */; };
+		109E5610253AFC4E00C957C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 109E560F253AFC4E00C957C1 /* Assets.xcassets */; };
+		109E5613253AFC4E00C957C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 109E5612253AFC4E00C957C1 /* Preview Assets.xcassets */; };
+		109E561E253AFC4F00C957C1 /* SwiftUI_Custom_Search_Bar_With_PaginationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109E561D253AFC4F00C957C1 /* SwiftUI_Custom_Search_Bar_With_PaginationTests.swift */; };
+		109E5629253AFC4F00C957C1 /* SwiftUI_Custom_Search_Bar_With_PaginationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109E5628253AFC4F00C957C1 /* SwiftUI_Custom_Search_Bar_With_PaginationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		109E561A253AFC4F00C957C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 109E5600253AFC4E00C957C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 109E5607253AFC4E00C957C1;
+			remoteInfo = "SwiftUI Custom Search Bar With Pagination";
+		};
+		109E5625253AFC4F00C957C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 109E5600253AFC4E00C957C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 109E5607253AFC4E00C957C1;
+			remoteInfo = "SwiftUI Custom Search Bar With Pagination";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		109E5608253AFC4E00C957C1 /* SwiftUI Custom Search Bar With Pagination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Custom Search Bar With Pagination.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		109E560B253AFC4E00C957C1 /* SwiftUI_Custom_Search_Bar_With_PaginationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Custom_Search_Bar_With_PaginationApp.swift; sourceTree = "<group>"; };
+		109E560D253AFC4E00C957C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		109E560F253AFC4E00C957C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		109E5612253AFC4E00C957C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		109E5614253AFC4E00C957C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		109E5619253AFC4F00C957C1 /* SwiftUI Custom Search Bar With PaginationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI Custom Search Bar With PaginationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		109E561D253AFC4F00C957C1 /* SwiftUI_Custom_Search_Bar_With_PaginationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Custom_Search_Bar_With_PaginationTests.swift; sourceTree = "<group>"; };
+		109E561F253AFC4F00C957C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		109E5624253AFC4F00C957C1 /* SwiftUI Custom Search Bar With PaginationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI Custom Search Bar With PaginationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		109E5628253AFC4F00C957C1 /* SwiftUI_Custom_Search_Bar_With_PaginationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Custom_Search_Bar_With_PaginationUITests.swift; sourceTree = "<group>"; };
+		109E562A253AFC4F00C957C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		109E5605253AFC4E00C957C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		109E5616253AFC4F00C957C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		109E5621253AFC4F00C957C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		109E55FF253AFC4E00C957C1 = {
+			isa = PBXGroup;
+			children = (
+				109E560A253AFC4E00C957C1 /* SwiftUI Custom Search Bar With Pagination */,
+				109E561C253AFC4F00C957C1 /* SwiftUI Custom Search Bar With PaginationTests */,
+				109E5627253AFC4F00C957C1 /* SwiftUI Custom Search Bar With PaginationUITests */,
+				109E5609253AFC4E00C957C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		109E5609253AFC4E00C957C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				109E5608253AFC4E00C957C1 /* SwiftUI Custom Search Bar With Pagination.app */,
+				109E5619253AFC4F00C957C1 /* SwiftUI Custom Search Bar With PaginationTests.xctest */,
+				109E5624253AFC4F00C957C1 /* SwiftUI Custom Search Bar With PaginationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		109E560A253AFC4E00C957C1 /* SwiftUI Custom Search Bar With Pagination */ = {
+			isa = PBXGroup;
+			children = (
+				109E560B253AFC4E00C957C1 /* SwiftUI_Custom_Search_Bar_With_PaginationApp.swift */,
+				109E560D253AFC4E00C957C1 /* ContentView.swift */,
+				109E560F253AFC4E00C957C1 /* Assets.xcassets */,
+				109E5614253AFC4E00C957C1 /* Info.plist */,
+				109E5611253AFC4E00C957C1 /* Preview Content */,
+			);
+			path = "SwiftUI Custom Search Bar With Pagination";
+			sourceTree = "<group>";
+		};
+		109E5611253AFC4E00C957C1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				109E5612253AFC4E00C957C1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		109E561C253AFC4F00C957C1 /* SwiftUI Custom Search Bar With PaginationTests */ = {
+			isa = PBXGroup;
+			children = (
+				109E561D253AFC4F00C957C1 /* SwiftUI_Custom_Search_Bar_With_PaginationTests.swift */,
+				109E561F253AFC4F00C957C1 /* Info.plist */,
+			);
+			path = "SwiftUI Custom Search Bar With PaginationTests";
+			sourceTree = "<group>";
+		};
+		109E5627253AFC4F00C957C1 /* SwiftUI Custom Search Bar With PaginationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				109E5628253AFC4F00C957C1 /* SwiftUI_Custom_Search_Bar_With_PaginationUITests.swift */,
+				109E562A253AFC4F00C957C1 /* Info.plist */,
+			);
+			path = "SwiftUI Custom Search Bar With PaginationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		109E5607253AFC4E00C957C1 /* SwiftUI Custom Search Bar With Pagination */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 109E562D253AFC4F00C957C1 /* Build configuration list for PBXNativeTarget "SwiftUI Custom Search Bar With Pagination" */;
+			buildPhases = (
+				109E5604253AFC4E00C957C1 /* Sources */,
+				109E5605253AFC4E00C957C1 /* Frameworks */,
+				109E5606253AFC4E00C957C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI Custom Search Bar With Pagination";
+			productName = "SwiftUI Custom Search Bar With Pagination";
+			productReference = 109E5608253AFC4E00C957C1 /* SwiftUI Custom Search Bar With Pagination.app */;
+			productType = "com.apple.product-type.application";
+		};
+		109E5618253AFC4F00C957C1 /* SwiftUI Custom Search Bar With PaginationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 109E5630253AFC4F00C957C1 /* Build configuration list for PBXNativeTarget "SwiftUI Custom Search Bar With PaginationTests" */;
+			buildPhases = (
+				109E5615253AFC4F00C957C1 /* Sources */,
+				109E5616253AFC4F00C957C1 /* Frameworks */,
+				109E5617253AFC4F00C957C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				109E561B253AFC4F00C957C1 /* PBXTargetDependency */,
+			);
+			name = "SwiftUI Custom Search Bar With PaginationTests";
+			productName = "SwiftUI Custom Search Bar With PaginationTests";
+			productReference = 109E5619253AFC4F00C957C1 /* SwiftUI Custom Search Bar With PaginationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		109E5623253AFC4F00C957C1 /* SwiftUI Custom Search Bar With PaginationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 109E5633253AFC4F00C957C1 /* Build configuration list for PBXNativeTarget "SwiftUI Custom Search Bar With PaginationUITests" */;
+			buildPhases = (
+				109E5620253AFC4F00C957C1 /* Sources */,
+				109E5621253AFC4F00C957C1 /* Frameworks */,
+				109E5622253AFC4F00C957C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				109E5626253AFC4F00C957C1 /* PBXTargetDependency */,
+			);
+			name = "SwiftUI Custom Search Bar With PaginationUITests";
+			productName = "SwiftUI Custom Search Bar With PaginationUITests";
+			productReference = 109E5624253AFC4F00C957C1 /* SwiftUI Custom Search Bar With PaginationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		109E5600253AFC4E00C957C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					109E5607253AFC4E00C957C1 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					109E5618253AFC4F00C957C1 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 109E5607253AFC4E00C957C1;
+					};
+					109E5623253AFC4F00C957C1 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 109E5607253AFC4E00C957C1;
+					};
+				};
+			};
+			buildConfigurationList = 109E5603253AFC4E00C957C1 /* Build configuration list for PBXProject "SwiftUI Custom Search Bar With Pagination" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 109E55FF253AFC4E00C957C1;
+			productRefGroup = 109E5609253AFC4E00C957C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				109E5607253AFC4E00C957C1 /* SwiftUI Custom Search Bar With Pagination */,
+				109E5618253AFC4F00C957C1 /* SwiftUI Custom Search Bar With PaginationTests */,
+				109E5623253AFC4F00C957C1 /* SwiftUI Custom Search Bar With PaginationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		109E5606253AFC4E00C957C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109E5613253AFC4E00C957C1 /* Preview Assets.xcassets in Resources */,
+				109E5610253AFC4E00C957C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		109E5617253AFC4F00C957C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		109E5622253AFC4F00C957C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		109E5604253AFC4E00C957C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109E560E253AFC4E00C957C1 /* ContentView.swift in Sources */,
+				109E560C253AFC4E00C957C1 /* SwiftUI_Custom_Search_Bar_With_PaginationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		109E5615253AFC4F00C957C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109E561E253AFC4F00C957C1 /* SwiftUI_Custom_Search_Bar_With_PaginationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		109E5620253AFC4F00C957C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109E5629253AFC4F00C957C1 /* SwiftUI_Custom_Search_Bar_With_PaginationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		109E561B253AFC4F00C957C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 109E5607253AFC4E00C957C1 /* SwiftUI Custom Search Bar With Pagination */;
+			targetProxy = 109E561A253AFC4F00C957C1 /* PBXContainerItemProxy */;
+		};
+		109E5626253AFC4F00C957C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 109E5607253AFC4E00C957C1 /* SwiftUI Custom Search Bar With Pagination */;
+			targetProxy = 109E5625253AFC4F00C957C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		109E562B253AFC4F00C957C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		109E562C253AFC4F00C957C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		109E562E253AFC4F00C957C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Custom Search Bar With Pagination/Preview Content\"";
+				DEVELOPMENT_TEAM = 28FY2PHCA4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI Custom Search Bar With Pagination/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "elhajjaji.SwiftUI-Custom-Search-Bar-With-Pagination";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		109E562F253AFC4F00C957C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Custom Search Bar With Pagination/Preview Content\"";
+				DEVELOPMENT_TEAM = 28FY2PHCA4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI Custom Search Bar With Pagination/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "elhajjaji.SwiftUI-Custom-Search-Bar-With-Pagination";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		109E5631253AFC4F00C957C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28FY2PHCA4;
+				INFOPLIST_FILE = "SwiftUI Custom Search Bar With PaginationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "elhajjaji.SwiftUI-Custom-Search-Bar-With-PaginationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI Custom Search Bar With Pagination.app/SwiftUI Custom Search Bar With Pagination";
+			};
+			name = Debug;
+		};
+		109E5632253AFC4F00C957C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28FY2PHCA4;
+				INFOPLIST_FILE = "SwiftUI Custom Search Bar With PaginationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "elhajjaji.SwiftUI-Custom-Search-Bar-With-PaginationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI Custom Search Bar With Pagination.app/SwiftUI Custom Search Bar With Pagination";
+			};
+			name = Release;
+		};
+		109E5634253AFC4F00C957C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28FY2PHCA4;
+				INFOPLIST_FILE = "SwiftUI Custom Search Bar With PaginationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "elhajjaji.SwiftUI-Custom-Search-Bar-With-PaginationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwiftUI Custom Search Bar With Pagination";
+			};
+			name = Debug;
+		};
+		109E5635253AFC4F00C957C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28FY2PHCA4;
+				INFOPLIST_FILE = "SwiftUI Custom Search Bar With PaginationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "elhajjaji.SwiftUI-Custom-Search-Bar-With-PaginationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwiftUI Custom Search Bar With Pagination";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		109E5603253AFC4E00C957C1 /* Build configuration list for PBXProject "SwiftUI Custom Search Bar With Pagination" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				109E562B253AFC4F00C957C1 /* Debug */,
+				109E562C253AFC4F00C957C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		109E562D253AFC4F00C957C1 /* Build configuration list for PBXNativeTarget "SwiftUI Custom Search Bar With Pagination" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				109E562E253AFC4F00C957C1 /* Debug */,
+				109E562F253AFC4F00C957C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		109E5630253AFC4F00C957C1 /* Build configuration list for PBXNativeTarget "SwiftUI Custom Search Bar With PaginationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				109E5631253AFC4F00C957C1 /* Debug */,
+				109E5632253AFC4F00C957C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		109E5633253AFC4F00C957C1 /* Build configuration list for PBXNativeTarget "SwiftUI Custom Search Bar With PaginationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				109E5634253AFC4F00C957C1 /* Debug */,
+				109E5635253AFC4F00C957C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 109E5600253AFC4E00C957C1 /* Project object */;
+}
